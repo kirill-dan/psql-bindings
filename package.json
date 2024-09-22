@@ -1,6 +1,6 @@
 {
   "name": "psql-bindings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.mjs",
   "keywords": ["postgresql", "bindings", "database", "nodejs", "sql"],
   "author": "Kirill Danilevsky, k.danilevsky@gmail.com, https://marketplace.ninja",

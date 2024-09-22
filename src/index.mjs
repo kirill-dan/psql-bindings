@@ -30,6 +30,7 @@ const pool = new Pool(config);
  *
  * @param sql {string} SQL raw string
  * @param options {object: { bindings }} SQL options with bindings in format {key: value}
+ * @returns {Promise<any[]>} The query result as an array of objects in camel case
  */
 const query = async (sql, options = {}) => {
     const { bindings = {} } = options;
